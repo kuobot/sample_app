@@ -1,0 +1,4 @@
+<% provide(:title, "Contact Us")
+
+<h1>Contact Us</h1>
+<p>For more information, contact us <a href="mailto:kitten@kitten.org">here</a>
