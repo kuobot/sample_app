@@ -1,3 +1,5 @@
+http://shielded-temple-8057.herokuapp.com/
+
 # Ruby on Rails Tutorial: sample application
 
 This is the sample application for
