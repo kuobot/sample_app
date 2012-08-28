@@ -1,0 +1,4 @@
+<% provide(:title, 'Help') %>
+
+		<%= @user.phone %><br>
+		<%= mail_to @user.email, "Get in touch!", :subject => "Hey!" %>

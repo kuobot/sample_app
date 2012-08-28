@@ -1,17 +1,28 @@
 <% provide(:title, @user.name) %>
 <div class="row">
-  <aside class="span4">
+  <aside class="span3">
     <section>
       <h1>
         <%= gravatar_for @user %>
         <%= @user.name %>
       </h1>
     </section>
-    <section>
+<!--     <section>
       <%= render 'shared/stats' %>
     </section>
+ -->
+    <section>
+      <%= render 'phone' %>
+    </section>
+
+
+    <section>
+      <%= render 'test' %>
+    </section>
+
   </aside>
-  
+
+
   <div class="span8">
     <%= render 'follow_form' if signed_in? %>
     <% if @user.microposts.any? %>
@@ -23,3 +34,4 @@
     <% end %>
   </div>
 </div>
+
