@@ -1,8 +1,9 @@
 <header class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
-      <%= link_to "sample app", root_path, id: "logo" %>
+      <%= link_to "tethrball", root_path, id: "logo" %>
       <nav>
+
         <ul class="nav pull-right">
           <li><%= link_to "Home", root_path %></li>
           <li><%= link_to "Help", help_path %></li>
@@ -25,6 +26,16 @@
             <li><%= link_to "Sign in", signin_path %></li>
           <% end %>
         </ul>
+
+
+
+<form class="navbar-search pull-right">
+  <input type="text" class="search-query" placeholder="Search">
+</form>
+
+
+
+
       </nav>
     </div>
   </div>

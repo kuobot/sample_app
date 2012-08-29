@@ -1,4 +1,6 @@
 require 'spec_helper'
+require 'sunspot' 
+require 'sunspot_rails'
 
 describe "User pages" do
 

@@ -6,7 +6,7 @@ gem 'bcrypt-ruby', '3.0.1'
 gem 'faker', '1.0.1'
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
-
+gem 'sunspot_rails'
 
 
 group :development, :test do
@@ -14,6 +14,8 @@ group :development, :test do
   gem 'rspec-rails', '2.10.0'
   gem 'guard-rspec', '0.5.5'
   gem 'factory_girl_rails', '1.4.0'
+  gem 'sunspot_solr'
+
 
 end
 
