@@ -42,7 +42,7 @@ textarea {
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
-	line-heigh: 1;
+	line-height: 1;
 }
 
 h1 {
@@ -142,6 +142,11 @@ aside {
       letter-spacing: -1px;
       margin-bottom: 3px;
     }
+    h2 {
+      color: $grayLight;
+      margin-left: 60px;
+      margin-top: -50px;
+    }
   }
 }
 
@@ -232,7 +237,9 @@ input, textarea, select, .uneditable-input {
 }
 .content {
   display: block;
+  margin-top: 200px;
 }
+
 .timestamp {
   color: $grayLight;
 }
@@ -246,3 +253,44 @@ aside {
     margin-bottom: 5px;
   }
 }
+
+/* a big ass number */
+
+.price {
+    h1 {
+      font-size: 5.6em;
+      text-align: left;
+      letter-spacing: -1px;
+      padding: 20px 0 1px;
+      margin-bottom: 3px;
+    }
+}
+
+/* a box just for fun */
+
+.outer_box {
+  background: #000000;
+  background-image: -moz-linear-gradient(270deg, #f2f2f2 0%, #f0f0f0 100%);
+  background-image: -webkit-linear-gradient(270deg, #f2f2f2 0%, #f0f0f0 100%);
+  background-image: -o-linear-gradient(270deg, #f2f2f2 0%, #f0f0f0 100%);
+  background-image: linear-gradient(270deg, #f2f2f2 0%, #f0f0f0 100%);
+  border: none;
+  width: 700px;
+  height: 273px;
+  border-radius: 0px;
+  -moz-box-shadow: 0px 0px 10px 0px rgba(184, 184, 184, 0.7), 0px 1px 2px 0px #000000;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(184, 184, 184, 0.7), 0px 1px 2px 0px #000000;
+  -o-box-shadow: 0px 0px 10px 0px rgba(184, 184, 184, 0.7), 0px 1px 2px 0px #000000;
+  box-shadow: 0px 0px 10px 0px rgba(184, 184, 184, 0.7), 0px 1px 2px 0px #000000;
+}
+.inner_box {
+  background: #ffffff;
+  border: none;
+  width: 680px;
+  height: 200px;
+  border-radius: 0px;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+
